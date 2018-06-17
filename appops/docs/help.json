@@ -8,9 +8,9 @@
             "en": "What is App Ops?"
         },
         "content": {
-            "zh-CN": "https://rikka.app/AppOps/docs/zh-CN/?doc=what_is_appops",
-            "zh-TW": "https://rikka.app/AppOps/docs/zh-TW/?doc=what_is_appops",
-            "en": "https://rikka.app/AppOps/docs/en/?doc=what_is_appops"
+            "zh-CN": "https://rikka.app/AppOps/docs/zh-CN/?doc=what_is_appops&title=%E4%BB%80%E4%B9%88%E6%98%AF%20App%20Ops%EF%BC%9F",
+            "zh-TW": "https://rikka.app/AppOps/docs/zh-TW/?doc=what_is_appops&title=%E4%BB%80%E4%B9%88%E6%98%AF%20App%20Ops%EF%BC%9F",
+            "en": "https://rikka.app/AppOps/docs/en/?doc=what_is_appops&title=What%20is%20App%20Ops%3F"
         }
     }
 ]
