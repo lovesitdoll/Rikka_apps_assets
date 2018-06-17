@@ -1,0 +1,16 @@
+[
+    {
+        "order": 0,
+        "id": "what_is_appops",
+        "title": {
+            "zh-CN": "什么是 App Ops？",
+            "zh-TW": "什麼是 App Ops？",
+            "en": "What is App Ops?"
+        },
+        "content": {
+            "zh-CN": "https://rikka.app/AppOps/docs/zh-CN/?doc=what_is_appops",
+            "zh-TW": "https://rikka.app/AppOps/docs/zh-TW/?doc=what_is_appops",
+            "en": "https://rikka.app/AppOps/docs/en/?doc=what_is_appops"
+        }
+    }
+]
