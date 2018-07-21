@@ -1,19 +1,14 @@
 {
-    "code": 0,
-    "name": "0.16.5-beta",
+    "code": 815,
+    "name": "0.17.0-beta",
     "ignoreable": true,
     "download": {
-        "url": "",
-        "abi": {
-            "armeabi-v7a": "",
-            "arm64-v8a": "",
-            "x86": "",
-            "x86_64": ""
-        }
+        "url": "https://rikka.app/storage_redirect/",
+        "abi": {}
     },
     "text": {
-        "zh-CN": "<font face=\"sans-serif-medium\"><size value=\"16sp\">有新版本可用</size></font><size value=\"8sp\"><br><br></size>版本 %1$s 包含：<br><li gap=\"6sp\">BUG 修复",
-        "en": "<font face=\"sans-serif-medium\"><size value=\"16sp\">New version available</size></font><size value=\"8sp\"><br><br></size>Version %1$s contains:<br><li gap=\"6sp\">BUG fix"
+        "zh-CN": "<font face=\"sans-serif-medium\"><size value=\"16sp\">有新版本可用</size></font><size value=\"8sp\"><br><br></size>版本 %1$s 包含：<li gap=\"8sp\">添加设置重定向目标文件夹（单个应用或全局）<li gap=\"8sp\">添加应用安装后的通知<li gap=\"8sp\">添加一个为 OnePlus 原生 ROM 的特殊处理<li gap=\"8sp\">BUG 修复",
+        "en": "<font face=\"sans-serif-medium\"><size value=\"16sp\">New version available</size></font><size value=\"8sp\"><br><br></size>Version %1$s contains:<li gap=\"8sp\">Add set redirect target folder (globally and pre-app)<li gap=\"8sp\">Add app installed notification<li gap=\"8sp\">Add a special treatment for OnePlus stock ROM<li gap=\"8sp\">BUG fix"
     },
     "download_button": {
         "zh-CN": "下载",
