@@ -96,20 +96,6 @@
     },
     {
         "order": 5,
-        "id": "upgrade_from_legacy",
-        "title": {
-            "zh-CN": "从 0.9.x 版本（2018 年 1 月前）升级",
-            "zh-TW": "從 0.9.x 版本（2018 年 1 月前) 升級",
-            "en": "Upgrade from version 0.9.x (before Jan 2018)"
-        },
-        "content": {
-            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=%E4%BB%8E%E6%97%A9%E6%9C%9F%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7",
-            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=%E5%BE%9E%E6%97%A9%E6%9C%9F%E7%89%88%E6%9C%AC%E5%8D%87%E7%B4%9A",
-            "en": "https://rikka.app/storage_redirect/docs/en/?doc=Upgrade%20from%20legacy%20version"
-        }
-    },
-    {
-        "order": 6,
         "id": "how_to_save_logs",
         "title": {
             "zh-CN": "如何保存调试日志",

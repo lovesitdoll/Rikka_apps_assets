@@ -1,12 +1,22 @@
-### Why do we need a link?
+# What is link
 
-After the redirecting is turned on, useful files that were originally saved outside of _Standard folder_ (eg this app saves images in `/sdcard/blbl/saved_images`) will be saved in `/sdcard/Android/data/<package>/cache/sdcard/blbl/1.jpg`.
+"Link" is a feature that is introduced to solve the problem that it is not convenient to access a file saved by redirected apps.
 
-System's media storage or other applications will not scan this path, so these files need to be made available in the _Standard folder_ via link functions (eg `/sdcard/Pictures/example/1.jpg`).
+# Behavior of link feature
 
-### behavior
+A link rule mainly includes a source folder and a target folder. When the rule is turned on, the two folders will be monitored and have the following behavior.
 
-* This is a hard link
-* When deleting external files (such as `/sdcard/Picture/example/1.jpg`), internal files will always be deleted (such as `/sdcard/Android/data/example/cache/sdcard/blbl/saved_images/1.jpg`)
-* Only when the application is running, deleting the internal file will result in external files being deleted simultaneously (before Android 8.0, non-primary user applications will be regarded as always running)
-* When clearing cache or data through the system, the application isn’t running, so there is no risk of losing files while performing these actions.
+* New file creation in source folder: link to target folder
+* File in source folder is deleted: delete the corresponding file in target folder (apps only run in the foreground)
+* File in target folder is deleted: delete the corresponding file in source folder
+* Files in target folder will be linked to source folder when the rule is enabled (and each boot)
+
+# FAQ
+
+## I see the same files in two folders (source folder and target folder), do they take up double storage?
+
+No. Because hard links are used, hard links can be understood as having multiple file names corresponding to the same data.
+
+## If I uninstall the app or clear the app data, will the linked file be deleted?
+
+(Under normal circumstances) No.
